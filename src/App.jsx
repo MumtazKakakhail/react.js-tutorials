@@ -1,9 +1,9 @@
-import React from "react";
 
 export const App = () => {
   return <div>
-    <h2>Name: Harry Potter</h2>
-    <h3>Rating: 9.1</h3>
+    <div><img src="../public/harry.png" alt="" width="40%" height="40%" /></div>
+    <h2>Name: Harry Potter and the Deathly Hallows – Part 2 (2011)</h2>
+    <h3>Rating: 96%</h3>
     <p>A young wizard, Harry Potter, battles dark forces at Hogwarts, uncovering secrets,
        forging friendships, and confronting Voldemort to save magic</p>
   </div>
