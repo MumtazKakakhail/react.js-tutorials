@@ -2,13 +2,13 @@ import React from "react";
 //components in jsx
 export const App = () => {
   return ( 
-    <React.Fragment>
+    <>
     <NetflixSeries />
     <NetflixSeries />
     <NetflixSeries />
     <NetflixSeries />
     <NetflixSeries />
-  </React.Fragment>
+  </>
   );
 };
 
