@@ -1,12 +1,15 @@
+import React from "react";
 //components in jsx
 export const App = () => {
-  return <div>
+  return ( 
+    <React.Fragment>
     <NetflixSeries />
     <NetflixSeries />
     <NetflixSeries />
     <NetflixSeries />
     <NetflixSeries />
-  </div>
+  </React.Fragment>
+  );
 };
 
 const NetflixSeries = () => {
