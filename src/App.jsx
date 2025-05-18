@@ -1,5 +1,5 @@
 import React from "react";
-//components in jsx
+//components in jsxgit 
 export const App = () => {
   return (
     <>
