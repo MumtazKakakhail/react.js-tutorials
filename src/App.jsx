@@ -17,11 +17,11 @@ const NetflixSeries = () => {
   const name = "Harry Potter and the Deathly Hallows – Part 2 (2011)";
   const rating = "96%";
   const summary =
-  "A young wizard, Harry Potter, battles dark forces at Hogwarts, uncovering secrets, forging friendships, and confronting Voldemort to save magic.";
-const returnGenre = () => {
-  const genre = "magic";
-  return genre;
-};
+    "A young wizard, Harry Potter, battles dark forces at Hogwarts, uncovering secrets, forging friendships, and confronting Voldemort to save magic.";
+  const returnGenre = () => {
+    const genre = "magic";
+    return genre;
+  };
 
   return <div>
     <div><img src="../public/harry.png" alt="" width="40%" height="40%" /></div>
