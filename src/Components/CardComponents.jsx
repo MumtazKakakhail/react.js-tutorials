@@ -1,5 +1,5 @@
 import React from "react";
-//components in jsxgit 
+//components in jsx
 export const CardComponents = () => {
   return (
     <>
