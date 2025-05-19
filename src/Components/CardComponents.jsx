@@ -18,7 +18,8 @@ export const NetflixSeries = () => {
   const rating = "96%";
   const summary =
     "A young wizard, Harry Potter, battles dark forces at Hogwarts, uncovering secrets, forging friendships, and confronting Voldemort to save magic.";
-  const returnGenre = () => {
+  let Age = 26;
+    const returnGenre = () => {
     const genre = "magic";
     return genre;
   };
@@ -30,5 +31,6 @@ export const NetflixSeries = () => {
     {/* <h3>Rating: {5 + 3.2} </h3> */}
     <p>Summary: {summary} </p>
     <p>Genre: {returnGenre()}</p>
+    <button>{Age >= 18 ? "Watch Now" : "Not Available"} </button>
   </div>
 }
