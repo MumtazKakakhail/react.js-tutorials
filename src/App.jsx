@@ -1,6 +1,7 @@
 import React from 'react'
 import { CardComponents, NetflixSeries } from './Components/CardComponents'
 import ConditionalRendering from './Components/ConditionalRendering'
+import Practices from './Practices'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <CardComponents />
       <NetflixSeries />
       <ConditionalRendering/>
+      <Practices/>
     </div>
   )
 }
