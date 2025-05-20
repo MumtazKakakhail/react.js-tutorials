@@ -5,7 +5,8 @@
         "img_url": "../../public/images/supacell.png",
         "rating": "100%",
         "summary": " Five Black South Londoners gain superpowers and unite to protect loved ones from a secretive organization.",
-        "genre": "Superhero, Sci-fi, Drama"
+        "genre": "Superhero, Sci-fi, Drama",
+        "watch_url": " https://www.netflix.com/title/81316476"
 
     },
 
@@ -15,7 +16,8 @@
         "img_url": "../../public/images/baby.png",
         "rating": "99%",
         "summary": " A comedian's life unravels as he navigates the psychological aftermath of being stalked by a pub patron.",
-        "genre": "Psychological, Thriller, Drama"
+        "genre": "Psychological, Thriller, Drama",
+        "watch_url": " https://www.netflix.com/title/81219887"
 
     },
 
@@ -25,7 +27,8 @@
         "img_url": "../../public/images/harry.png",
         "rating": "96%",
         "summary": " A young wizard, Harry Potter, battles dark forces at Hogwarts, uncovering secrets, forging friendships, and confronting Voldemort to save magic",
-        "genre": "Fantasy, Adventure, Drama"
+        "genre": "Fantasy, Adventure, Drama",
+        "watch_url":" Harry Potter and the Deathly Hallows: Part 2"
     }, 
         {
         "name": "American Nightmare",
@@ -33,7 +36,8 @@
         "img_url": "../../public/images/america.png",
         "rating": "96%",
         "summary": "A gripping true-crime docuseries examining the 2015 kidnapping of Denise Huskins and the ensuing media frenzy.",
-        "genre": "True-crime, Documentary, Thriller"
+        "genre": "True-crime, Documentary, Thriller",
+        "watch_url": "https://www.netflix.com/title/81620852"
     },
     {
         "name": "One Day",
@@ -41,7 +45,8 @@
         "img_url": "../../public/images/one.png",
         "rating": "91%",
         "summary": " Chronicles a 20-year relationship between two opposites, meeting annually to explore love, loss, and growth.",
-        "genre": "Romance, Drama, Coming-of-age"
+        "genre": "Romance, Drama, Coming-of-age",
+        "watch_url": " https://www.netflix.com/title/81256740"
     }
 
 
