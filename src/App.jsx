@@ -9,7 +9,7 @@ function App() {
       <CardComponents />
       <NetflixSeries />
       <ConditionalRendering/>
-      <Practices/>
+      {/* <Practices/> */}
     </div>
   )
 }
