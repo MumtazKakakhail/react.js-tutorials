@@ -1,14 +1,15 @@
 import React from 'react'
-import { CardComponents, NetflixSeries } from './Components/CardComponents'
-import ConditionalRendering from './Components/ConditionalRendering'
-import Practices from './Practices'
+// import { CardComponents } from './Components/CardComponents'
+// import ConditionalRendering from './Components/ConditionalRendering'
+// import Practices from './Practices'
+import NetflixSeries from './Components/NetflixSeries'
 
 function App() {
   return (
     <div>
-      <CardComponents />
-      <NetflixSeries />
-      <ConditionalRendering/>
+      {/* <CardComponents /> */}
+      <NetflixSeries/>
+      {/* <ConditionalRendering/> */}
       {/* <Practices/> */}
     </div>
   )
