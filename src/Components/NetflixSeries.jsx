@@ -13,6 +13,9 @@ const NetflixSeries = () => {
     <h3>Rating: {curElem.rating} </h3>
      <p>Summary: {curElem.summary} </p>
     <p>Genre: {curElem.genre}</p>
+    <a href={curElem.watch_url} target= "_blank">
+        <button>Watch Now</button>
+    </a>
 </li>)
     })}
    
