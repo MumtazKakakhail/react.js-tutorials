@@ -3,7 +3,7 @@ export const SeriesCard = (props) => {
     return (
         <li key={props}>
             <div>
-                <img src={img_url} alt="curElem.name" width="40%" height="40%" />
+                <img src={img_url} alt="name" width="40%" height="40%" />
             </div>
             <h2>Name: {name} </h2>
             <h3>Rating: {rating} </h3>
