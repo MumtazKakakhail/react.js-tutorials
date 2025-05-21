@@ -1,7 +1,7 @@
-export const SeriesCard = (props) => {
-    const {  img_url, name, rating, summary, genre, cast, watch_url } = props.data;
+export const SeriesCard = ({data}) => {
+    const {  img_url, name, rating, summary, genre, cast, watch_url } = data;
     return (
-        <li key={props}>
+        <li>
             <div>
                 <img src={img_url} alt="name" width="40%" height="40%" />
             </div>
