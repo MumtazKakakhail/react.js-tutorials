@@ -3,6 +3,7 @@ import React from 'react'
 // import ConditionalRendering from './Components/ConditionalRendering'
 // import Practices from './Practices'
 import NetflixSeries from './Components/NetflixSeries'
+import Profile from './Components/Profile'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <NetflixSeries/>
       {/* <ConditionalRendering/> */}
       {/* <Practices/> */}
+      {/* <Profile/> */}
     </div>
   )
 }
