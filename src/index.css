@@ -36,6 +36,21 @@ li {
 a {
     text-decoration: none;
 }
+
+/* theme */
+:root {
+    --main-color: #0062ff;
+    --supporting-color: #ebf3fe;
+    --font-color: #424242;
+    --bg-color: #ffffff;
+    --heading-color: #000a19;
+    --h-color: #0a043c;
+    --white-color: #ffffff;
+    --test: #070101;
+    --para-color:#504e4d;
+    --bnt-hover-bg-color: #003b99;
+    --btn-box-shadow: #rgba(100,100,101,0.2) 0px,7px,29px,0px;
+}
 .grid {
     display: grid;
     gap: 9.6rem;
