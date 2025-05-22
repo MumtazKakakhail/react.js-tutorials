@@ -3,7 +3,10 @@ import NetflixSeries from "./NetflixSeries";
 // components in jsx
 export const App = () => {
   return (
+    <>
       <NetflixSeries />
+    
+    </>
   );
 };
 
