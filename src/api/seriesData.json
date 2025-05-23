@@ -2,7 +2,7 @@
     {
         "name": "Supacell",
         "id": "Supa-cell",
-        "img_url": "../../public/images/supacell.png",
+        "img_url": "../../public/images/supa.png",
         "rating": "100%",
         "summary": " Five Black South Londoners gain superpowers and unite to protect loved ones from a secretive organization.",
         "genre": "Superhero, Sci-fi, Drama",
@@ -48,5 +48,12 @@
         "genre": "Romance, Drama, Coming-of-age",
         "cast": "Ambika Mod, Leo Woodall, Eleanor Tomlinson, Essie Davis, Tim McInnerny.",
         "watch_url": " https://www.netflix.com/title/81256740"
+    },
+    {
+        "name": "House of Ninjas",
+        "id": "House-of-Ninjas",
+        "img_url": "../../public/images/house of nin.png",
+        "rating": "96%"
+        
     }
 ]
