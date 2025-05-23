@@ -9,10 +9,10 @@ export const SeriesCard = ({data}) => {
             </div>
             <div className="card-content">
             <h2>Name: {name} </h2>
-            <h3>Rating: {rating} </h3>
-            <p>Summary: {summary} </p>
-            <p>Genre: {genre} </p>
-            <p>Cast: {cast} </p>
+            <h3 style={{margin: "1.2rem  0"}}>Rating: {rating} </h3>
+            <p style={{margin: "1.2rem  0"}}>Summary: {summary} </p>
+            <p style={{margin: "1.2rem  0"}}>Genre: {genre} </p>
+            <p style={{margin: "1.2rem  0"}}>Cast: {cast} </p>
             <a href={watch_url} target="_blank">
                 <button>Watch Now</button>
             </a>
