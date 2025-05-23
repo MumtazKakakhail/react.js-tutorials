@@ -2,6 +2,13 @@ import './Netflix.css'
 
 export const SeriesCard = ({data}) => {
     const {  img_url, name, rating, summary, genre, cast, watch_url } = data;
+    const btn_style = {
+                    padding: "1.2rem 2.4rem",
+                    border: "none",
+                    fontSize: "1.6rem",
+                    backgroundColor: "rgb(49, 107, 201)",
+                    color: "white",
+                }
     return (
         <li className="card">
             <div>
@@ -14,11 +21,7 @@ export const SeriesCard = ({data}) => {
             <p>Genre: {genre} </p>
             <p>Cast: {cast} </p>
             <a href={watch_url} target="_blank">
-                <button style={{
-                    padding: "1.2rem 2.4rem",
-                    border: "none",
-                    fontSize: "1.6rem",
-                }}>Watch Now</button>
+                <button style={btn_style}>Watch Now</button>
             </a>
         </div>
         </li>
