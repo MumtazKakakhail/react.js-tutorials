@@ -1,4 +1,14 @@
-[
+[    
+        {
+        "name": "House of Ninjas",
+        "id": "House-of-Ninjas",
+        "img_url": "../../public/images/house of nin.png",
+        "rating": "100%",
+        "summary": "A family of ninjas struggles to protect their legacy while navigating modern life, action, and deep family bonds.",
+        "genre": "Action, Drama, Family",
+        "cast": "Masi Oka, Vivienne Tseng, James Hiroyuki Liao, Shannon Dang, Aaron Takahashi",
+        "watch_url": "https://www.netflix.com/title/81465101"
+    },
     {
         "name": "Supacell",
         "id": "Supa-cell",
@@ -12,7 +22,7 @@
     {
         "name": "Baby Reindeer",
         "id": "Baby-Reindeer",
-        "img_url": "../../public/images/baby.png",
+        "img_url": "../../public/images/rain.png",
         "rating": "99%",
         "summary": " A comedian's life unravels as he navigates the psychological aftermath of being stalked by a pub patron.",
         "genre": "Psychological, Thriller, Drama",
@@ -48,12 +58,6 @@
         "genre": "Romance, Drama, Coming-of-age",
         "cast": "Ambika Mod, Leo Woodall, Eleanor Tomlinson, Essie Davis, Tim McInnerny.",
         "watch_url": " https://www.netflix.com/title/81256740"
-    },
-    {
-        "name": "House of Ninjas",
-        "id": "House-of-Ninjas",
-        "img_url": "../../public/images/house of nin.png",
-        "rating": "96%"
-        
     }
+
 ]
