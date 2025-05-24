@@ -1,20 +1,20 @@
 .card {
-      background-color: white;
-       /* border-radius: 20px; */
-      box-shadow: 2px 6px 16px 0px  rgba(0, 0, 0, 0.15); 
-      padding: 20px;
-      text-align: center;
-      font-family: sans-serif;
+  background-color: white;
+  /* border-radius: 20px; */
+  box-shadow: 2px 6px 16px 0px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  text-align: center;
+  font-family: sans-serif;
 }
 img {
-    width: 100%;
+  width: 100%;
 }
 .card-content {
-    display: flex;
-    flex-direction: column;
-    gap: 0rem;
-    padding: 3.2rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  padding: 3.2rem 1.2rem;
 }
 .card-heading {
-    margin-bottom: 3.2rem;
+  margin-bottom: 3.2rem;
 }
