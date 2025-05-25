@@ -8,7 +8,7 @@ export const SeriesCard = ({ data }) => {
     fontSize: "1.6rem",
     backgroundColor: "rgb(49, 107, 201)",
     color: "white",
-  };togjtgjio
+  };
   return (
     <li className="card">
       <div>
