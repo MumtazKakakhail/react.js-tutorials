@@ -6,8 +6,10 @@ export const SeriesCard = ({ data }) => {
     padding: "1.2rem 2.4rem",
     border: "none",
     fontSize: "1.6rem",
-    backgroundColor: "rgb(49, 107, 201)",
-    color: "white",
+    backgroundColor: `${rating >= 97 ? " rgb(37, 219, 219)" : " rgb(240, 191, 132)"}`,
+    color: "var(--btn-color)",
+    fontWeight: "bold",
+    cursor : "pointer",
   };
   const ratingClass =rating >= 97 ? "super" : "average";
   return (
