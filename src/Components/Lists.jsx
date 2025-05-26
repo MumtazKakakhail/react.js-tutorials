@@ -16,7 +16,7 @@ export const SeriesCard = ({ data }) => {
       </div>
       <div className="card-content">
         <h2>Name: {name} </h2>
-        <h3>Rating: <span className= {rating >= 95 ? "super-hit" : "average"}>
+        <h3>Rating: <span className= {rating >= 97 ? "super" : "average"}>
            {rating}
             </span> 
             </h3>

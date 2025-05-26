@@ -18,8 +18,8 @@ img {
 .card-heading {
   margin-bottom: 3.2rem;
 }
-.super-hit {
-  background-color: aqua;
+.super {
+  background-color: rgb(37, 219, 219);
 }
 .average {
   background-color: rgb(240, 191, 132);
