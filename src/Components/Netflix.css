@@ -24,3 +24,9 @@ img {
 .average {
   background-color: rgb(240, 191, 132);
 }
+.rating {
+  padding: 0.3rem 1.8rem;
+  color: black;
+  margin-left: 1.2rem;
+  border-radius: 100rem;
+}
