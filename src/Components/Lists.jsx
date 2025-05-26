@@ -16,7 +16,10 @@ export const SeriesCard = ({ data }) => {
       </div>
       <div className="card-content">
         <h2>Name: {name} </h2>
-        <h3>Rating: {rating} </h3>
+        <h3>Rating: <span className= {rating >= 95 ? "super-hit" : "average"}>
+           {rating}
+            </span> 
+            </h3>
         <p>Summary: {summary} </p>
         <p>Genre: {genre} </p>
         <p>Cast: {cast} </p>
