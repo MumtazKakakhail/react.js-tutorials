@@ -9,9 +9,9 @@ export const SeriesCard = ({ data }) => {
     backgroundColor: `${rating >= 97 ? " rgb(37, 219, 219)" : " rgb(240, 191, 132)"}`,
     color: "var(--btn-color)",
     fontWeight: "bold",
-    cursor : "pointer",
+    cursor: "pointer",
   };
-  const ratingClass =rating >= 97 ? "super" : "average";
+  const ratingClass = rating >= 97 ? "super" : "average";
   return (
     <li className="card">
       <div>
@@ -20,9 +20,9 @@ export const SeriesCard = ({ data }) => {
       <div className="card-content">
         <h2>Name: {name} </h2>
         <h3>Rating: <span className={`rating ${ratingClass}`}>
-           {rating}
-            </span> 
-            </h3>
+          {rating}
+        </span>
+        </h3>
         <p>Summary: {summary} </p>
         <p>Genre: {genre} </p>
         <p>Cast: {cast} </p>
