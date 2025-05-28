@@ -1,4 +1,5 @@
 import "./Netflix.css";
+
 export const SeriesCard = ({ data }) => {
   const { img_url, name, rating, summary, genre, cast, watch_url } = data;
   const btn_style = {
