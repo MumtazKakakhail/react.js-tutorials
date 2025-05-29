@@ -12,7 +12,7 @@ export const SeriesCard = ({ data }) => {
     cursor: "pointer",
   };
   const ratingClass = rating >= 97 ? styles.super : styles.average;
-  return ( 
+  return (
     <li className={styles.card}>
       <div>
         <img src={img_url} alt="name" width="40%" height="40%" />
