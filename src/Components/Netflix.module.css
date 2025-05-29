@@ -1,0 +1,37 @@
+.card {
+  background-color: white;
+  box-shadow: 2px 6px 16px 0px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  padding: 3.2rem 1.2rem;
+}
+
+.card-heading {
+  margin-bottom: 3.2rem;
+}
+
+.super {
+  background-color: rgb(37, 219, 219);
+}
+
+.average {
+  background-color: rgb(240, 191, 132);
+}
+
+.rating {
+  padding: 0.3rem 1.8rem;
+  color: black;
+  margin-left: 1.2rem;
+  border-radius: 100rem;
+}
