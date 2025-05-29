@@ -1,4 +1,5 @@
-import "./Netflix.css";
+// import "./Netflix.css";
+import styles from "./Netflix.module.css";
 export const SeriesCard = ({ data }) => {
   const { img_url, name, rating, summary, genre, cast, watch_url } = data;
   const btn_style = {
@@ -10,15 +11,15 @@ export const SeriesCard = ({ data }) => {
     fontWeight: "bold",
     cursor: "pointer",
   };
-  const ratingClass = rating >= 97 ? "super" : "average";
+  const ratingClass = rating >= 97 ? styles.super : styles.average;
   return (
-    <li className="card">
+    <li className={styles.card}>
       <div>
         <img src={img_url} alt="name" width="40%" height="40%" />
       </div>
-      <div className="card-content">
+      <div className={styles["card-content"]}>
         <h2>Name: {name} </h2>
-        <h3>Rating: <span className={`rating ${ratingClass}`}>
+        <h3>Rating: <span className={`${styles.rating} ${ratingClass}`}>
           {rating}
         </span>
         </h3>
