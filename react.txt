@@ -1,0 +1,6 @@
+ EventHandling
+  In react, event handlers receive the event object as an argument by default,
+    however, when you use an arrow function directly in the onClick attribute without
+    passing the event explicitly, react doesn't pass the event object to your handlers 
+    function. This is because the arrow function creates a new function and calls your
+    handler without passing any arguments.

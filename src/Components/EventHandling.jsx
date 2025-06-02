@@ -5,9 +5,9 @@ export const EventHandling = () => {
     // }
 
     const handleButtonClick = (event) => {
-        console.log(event);
-        console.log(event.target);
-        console.log(event.type);
+           console.log(event);
+           console.log(event.target);
+           console.log(event.type);
         
         
         
@@ -17,6 +17,11 @@ export const EventHandling = () => {
     <>
     {/* function component with named function */}
     <button onClick={handleButtonClick}>Click Me</button>
+    <br />
+    <br />
+    <br />
+    {/* flat arrow function */}
+      <button onClick={() => handleButtonClick()}>Click Me 2</button>
     </>
     );
 };
