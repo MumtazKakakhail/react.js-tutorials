@@ -36,4 +36,5 @@ align-items: center;
 
 .events-handling {
     display: flex;
+    background-color: #f7dc6f;
 }
