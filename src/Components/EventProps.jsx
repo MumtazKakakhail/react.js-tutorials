@@ -1,3 +1,4 @@
+import "./Ev.css"
 export const EventProps = () => {
 
     const HandleWelcomeUser = (user) => {
