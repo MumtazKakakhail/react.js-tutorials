@@ -14,5 +14,22 @@ alert(`hey , ${user}`);
 
 </>
 
-    )
+    );
+};
+
+const WelcomeUser = (props) => {
+
+const handleGreeting = () => {
+    console.log(`hey user, welcome`);
+    
 }
+    return (
+<>
+<button onClick={props.onClick}>Click Me</button>
+<button onMouseEnter={props.onMouseEnter}>Hover Me</button>
+<button onClick={handleGreeting}>Greeting</button>
+
+</>
+
+    )
+} 
