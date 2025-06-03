@@ -21,6 +21,7 @@ const WelcomeUser = (props) => {
 
 const handleGreeting = () => {
     console.log(`hey user, welcome`);
+    props.onClick;
     
 }
     return (
