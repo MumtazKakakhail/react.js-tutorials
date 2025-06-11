@@ -8,8 +8,10 @@ export const State = () => {
     }
     return (
         <>
+        <section className="main-div">
         <h1>{value}</h1>
         <button onClick={handleButtonClick}>Increment</button>
+        </section>
         </>
     )
 }
