@@ -26,10 +26,10 @@ export const State = () => {
     );
 };
 
-function ChildComponent(count) {
+function ChildComponent({count}) {
     console.log("Child Component rendered");
     return (
     <div className="main-div">
-        <h2>Child Component-{count}</h2></div>
+        <h2>Child Component  -{count} </h2></div>
     );
 };
