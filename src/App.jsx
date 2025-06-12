@@ -7,6 +7,7 @@ import NetflixSeries from './Components/NetflixSeries';
 // import './Components/Netflix.css';
 import "./Components/Netflix.module.css";
 import { State } from './Components/hooks/State';
+
 // import { EventPropagation } from './Components/EventPropagation';
 // import { EventHandling } from './Components/EventHandling';
 // import { EventProps } from './Components/EventProps';

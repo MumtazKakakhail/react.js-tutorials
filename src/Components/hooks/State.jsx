@@ -15,10 +15,19 @@ export const State = () => {
     };
     return (
         <>
-        <section className="main-div">
+        <div className="main-div">
         <h1>{count}</h1>
         <button onClick={handleButtonClick}>Increment</button>
-        </section>
+        </div>
+        <ChildComponent/>
         </>
-    )
-}
+    );
+};
+
+function ChildComponent() {
+    console.log("Child Component rendered");
+    return (
+    <div className="main-div">
+        <h2>Child Component</h2></div>
+    );
+};
