@@ -18,8 +18,8 @@ export const App = () => {
       {/* <NetflixSeries /> */}
       {/* <EventHandling/> */}
       {/* <EventProps /> */}
-{/* <EventPropagation/> */}
-<State/>
+      {/* <EventPropagation/> */}
+      <State />
     </section>
   );
 };
