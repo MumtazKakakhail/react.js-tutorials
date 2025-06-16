@@ -16,7 +16,6 @@ export const SeriesCard = ({ data }) => {
   //     fontWeight: "bold",
   //     cursor: "pointer",
   //   });
-
   const ButtonOne = styled.button`
  padding: 1.2rem 2.4rem;
     border: none;
