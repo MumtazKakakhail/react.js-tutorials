@@ -11,7 +11,16 @@ export const DerivedState = () => {
     return (
         <div className="main-div">
             <h1>User List</h1>
-            <ul></ul>
+            <ul>
+                {
+                    users.map((curElem, index) =>{
+return (
+    <>
+    </>
+)
+                    })
+                }
+            </ul>
         </div>
     );
 };
