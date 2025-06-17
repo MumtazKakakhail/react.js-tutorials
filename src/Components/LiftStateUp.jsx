@@ -1,3 +1,4 @@
+import "../Components/Ev.css";
 import { useState } from "react";
 
 export const LiftingState = () => {
@@ -13,7 +14,9 @@ const InputComponent = () => {
     const [inputValue , setInputValue] = useState("");
     return (
     <>
-    <input type="text" placeholder="enter your name" value={inputValue}></input>
+    <input type="text" placeholder="enter your name" value={inputValue}
+    onChange={(e) => setInputValue(e.target.value)}>
+    </input>
     </>
     );
 };
