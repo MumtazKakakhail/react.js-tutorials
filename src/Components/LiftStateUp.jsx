@@ -12,7 +12,7 @@ export const LiftingState = () => {
     );
 };
 
-const InputComponent = () => {
+const InputComponent = ({inputValue, setInputValue}) => {
     return (
     <>
     <input type="text" placeholder="enter your name" value={inputValue}
@@ -22,6 +22,6 @@ const InputComponent = () => {
     );
 };
 
-const DisplayComponent = () => {
-    return <p>The current input value is:</p>
+const DisplayComponent = ({inputValue}) => {
+    return <p>The current input value is: {inputValue} </p>
 };
