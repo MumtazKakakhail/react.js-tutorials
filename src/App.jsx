@@ -6,7 +6,8 @@ import NetflixSeries from './Components/NetflixSeries';
 // import Profile from './Components/Profile';
 // import './Components/Netflix.css';
 import "./Components/Netflix.module.css";
-import { State } from './Components/hooks/State';
+// import { State } from './Components/hooks/State';
+import DerivedState from './Components/DerivedState';
 
 // import { EventPropagation } from './Components/EventPropagation';
 // import { EventHandling } from './Components/EventHandling';
@@ -19,7 +20,8 @@ export const App = () => {
       {/* <EventHandling/> */}
       {/* <EventProps /> */}
       {/* <EventPropagation/> */}
-      <State />
+      {/* <State /> */}
+      <DerivedState/>
     </section>
   );
 };
