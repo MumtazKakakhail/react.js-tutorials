@@ -16,6 +16,9 @@ export const DerivedState = () => {
         { name: "Angle", age: 28 },
         { name: "Thomas", age: 18 }
     ]);
+    console.log(users);
+    const userCount = users.length;
+    
     return (
         <div className="main-div">
             <h1>User List</h1>
@@ -26,6 +29,8 @@ export const DerivedState = () => {
                     </li>
                 ))}
             </ul>
+            <p>Total Users: {userCount}</p>
+            {/* <p>Average Age: {AverageAge}</p> */}
         </div>
     );
 };
