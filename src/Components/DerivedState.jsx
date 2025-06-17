@@ -9,7 +9,7 @@ import "../Components/Ev.css"
 // ];
 
 export const DerivedState = () => {
-     const [users] = useState([
+    const [users] = useState([
         { name: "Alice", age: 25 },
         { name: "Lewis", age: 30 },
         { name: "Charlie", age: 22 },
@@ -18,7 +18,7 @@ export const DerivedState = () => {
     ]);
     console.log(users);
     const userCount = users.length;
-    
+
     return (
         <div className="main-div">
             <h1>User List</h1>
