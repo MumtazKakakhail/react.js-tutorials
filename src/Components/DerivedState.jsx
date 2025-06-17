@@ -5,7 +5,7 @@ const users = [
 {"name": "Charlie", age: 22},
 {"name": "Angle", age: 28},
 {"name": "Thomas", age: 18}
-]
+];
 
 export const DerivedState = () => {
     return (
@@ -13,5 +13,5 @@ export const DerivedState = () => {
             <h1>User List</h1>
             <ul></ul>
         </div>
-    )
-}
+    );
+};
