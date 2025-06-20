@@ -12,7 +12,10 @@ export const Todo = () => {
     };
 
     if(!inputValue) return;
-if (task.includes(inputValue)) return;
+if (task.includes(inputValue)){
+    return;
+
+} ;
     setTask((prevTask) => [...prevTask, inputValue ]
      );
 
