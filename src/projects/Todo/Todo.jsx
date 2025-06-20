@@ -44,7 +44,7 @@ if (task.includes(inputValue)){
     <ul>
         {
             task.map((curTask , index) => {
-             return <li key={index}>
+             return <li key={index} className="todo-item"> 
 <span>{curTask}</span>
 <button className="check-btn">
 <MdCheck />
