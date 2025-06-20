@@ -8,8 +8,9 @@ import NetflixSeries from './Components/NetflixSeries';
 import "./Components/Netflix.module.css";
 // import { State } from './Components/hooks/State';
 // import DerivedState from './Components/DerivedState';
-import { LiftingState } from './Components/LiftStateUp';
-import ToggleSwitch from './projects/ToggleSwitch/ToggleSwitch';
+// import { LiftingState } from './Components/LiftStateUp';
+// import ToggleSwitch from './projects/ToggleSwitch/ToggleSwitch';
+import { Todo } from './projects/Todo/Todo';
 
 // import { EventPropagation } from './Components/EventPropagation';
 // import { EventHandling } from './Components/EventHandling';
@@ -25,7 +26,8 @@ export const App = () => {
       {/* <State /> */}
       {/* <DerivedState/> */}
       {/* <LiftingState/> */}
-      <ToggleSwitch/>
+      {/* <ToggleSwitch/> */}
+      <Todo/>
 
     </section>
   );
