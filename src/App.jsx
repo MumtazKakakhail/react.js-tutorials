@@ -17,7 +17,7 @@ import { Todo } from './projects/Todo/Todo';
 // import { EventProps } from './Components/EventProps';
 export const App = () => {
   return (
-    <section className="container">
+    <section >
       {/* <h1 className="card-heading">List of Best Netflix Series</h1> */}
       {/* <NetflixSeries /> */}
       {/* <EventHandling/> */}

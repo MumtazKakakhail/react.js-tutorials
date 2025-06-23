@@ -25,6 +25,7 @@ if (task.includes(inputValue)){
         <section className="todo-container">
 <header>
     <h1>Todo List</h1>
+    <h2 className="date-time">Date - Time</h2>
 </header>
 <section className="form">
     <form onSubmit={handleFormSubmit}>
