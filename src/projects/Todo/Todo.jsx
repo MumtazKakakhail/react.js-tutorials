@@ -1,11 +1,15 @@
 import { useState } from "react";
 import "./Todo.css";
-
+import { TodoForm } from "./TodoForm";
+import { TodoList } from "./TodoList";
+import { TodoDate } from "./TodoDate";
+import {
+  getLocalStorageTodoData,
+  setLocalStorageTodoData,
+} from "./TodoLocalStorage";
 
 export const Todo = () => {
-  const [task, setTask] = useState(() => {
-
-  });
+  const [task, setTask] = useState(() => getLocalStorageTodoData());
 
   const handleFormSubmit = (inputValue) => {
     const { id, content, checked } = inputValue;
@@ -24,7 +28,7 @@ export const Todo = () => {
   };
 
   //todo add data to localStorage
-
+  setLocalStorageTodoData(task);
 
   //todo handleDeleteTodo function
   const handleDeleteTodo = (value) => {
