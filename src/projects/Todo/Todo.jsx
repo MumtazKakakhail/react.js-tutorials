@@ -54,7 +54,7 @@ if (task.includes(inputValue)){
 </button>
              </li>
             })
-        }
+        };
     </ul>
 </section>
         </section>
