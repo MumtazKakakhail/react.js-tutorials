@@ -27,7 +27,6 @@ export const TodoForm = ({ onAddTodo }) => {
         </div>
         <div>
           <button type="submit" className="todo-btn">
-          
             Add Task
           </button>
         </div>
