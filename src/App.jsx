@@ -27,7 +27,7 @@ export const App = () => {
       {/* <DerivedState/> */}
       {/* <LiftingState/> */}
       {/* <ToggleSwitch/> */}
-      <Todo/>
+      <Todo />
 
     </section>
   );
