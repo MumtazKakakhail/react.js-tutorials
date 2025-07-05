@@ -18,7 +18,7 @@ export const TodoForm = ({ onAddTodo }) => {
       <form onSubmit={handleFormSubmit}>
         <div>
           <input
-            type="text"
+            type="text"gfgf
             className="todo-input"
             autoComplete="off"
             value={inputValue.content}
