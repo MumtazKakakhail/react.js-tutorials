@@ -12,7 +12,7 @@ export const TodoForm = ({ onAddTodo }) => {
     onAddTodo(inputValue);
     setInputValue({ id: "", content: "", checked: false });
   };
-  
+
   return (
     <section className="form">
       <form onSubmit={handleFormSubmit}>
