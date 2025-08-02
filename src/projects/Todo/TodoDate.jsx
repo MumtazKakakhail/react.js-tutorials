@@ -13,6 +13,6 @@ export const TodoDate = () => {
     }, 1000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, []); 
   return <h2 className="date-time">{dateTime}</h2>;
 };
