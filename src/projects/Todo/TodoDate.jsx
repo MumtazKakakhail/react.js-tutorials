@@ -15,4 +15,4 @@ export const TodoDate = () => {
     return () => clearInterval(interval);
   }, []); 
   return <h2 className="date-time">{dateTime}</h2>;
-};
+}; 
