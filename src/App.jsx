@@ -10,7 +10,7 @@ import "./Components/Netflix.module.css";
 // import DerivedState from './Components/DerivedState';
 // import { LiftingState } from './Components/LiftStateUp';
 // import ToggleSwitch from './projects/ToggleSwitch/ToggleSwitch';
-import { Todo } from './projects/Todo/Todo';
+// import { Todo } from './projects/Todo/Todo';
 
 // import { EventPropagation } from './Components/EventPropagation';
 // import { EventHandling } from './Components/EventHandling';
@@ -18,8 +18,8 @@ import { Todo } from './projects/Todo/Todo';
 export const App = () => {
   return (
     <section >
-      {/* <h1 className="card-heading">List of Best Netflix Series</h1> */}
-      {/* <NetflixSeries /> */}
+      <h1 className="card-heading">List of Best Netflix Series</h1>
+      <NetflixSeries />
       {/* <EventHandling/> */}
       {/* <EventProps /> */}
       {/* <EventPropagation/> */}
@@ -27,7 +27,7 @@ export const App = () => {
       {/* <DerivedState/> */}
       {/* <LiftingState/> */}
       {/* <ToggleSwitch/> */}
-      <Todo />
+      {/* <Todo /> */}
 
     </section>
   );
