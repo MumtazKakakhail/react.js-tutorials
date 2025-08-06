@@ -36,4 +36,4 @@ const WelcomeUser = (props) => {
         </>
 
     )
-} 
+};
