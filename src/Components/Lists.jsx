@@ -53,6 +53,3 @@ export const SeriesCard = ({ data }) => {
     </li>
   );
 };
-
-
-
