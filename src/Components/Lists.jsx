@@ -34,8 +34,7 @@ export const SeriesCard = ({ data }) => {
         <img src={img_url} alt="name" width="40%" height="40%" />
       </div>
       {/* <div className={styles["card-content"]}> */}
-      <div className="flex flex-col gap-6 py-[3.2rem] px-[1.2rem]
-">
+      <div className="flex flex-col gap-6 py-[3.2rem] px-[1.2rem]">
         <h2>Name: {name} </h2>
         <h3>Rating: <span className={`${styles.rating} ${ratingClass}`}>
           {rating}
